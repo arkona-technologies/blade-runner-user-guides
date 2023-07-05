@@ -29,7 +29,7 @@ Depending on your use-case and your desired video standard, you may need to chan
 
 Next we'll assign the transmitter a video source by selecting the desired video-essence under `r_t_p_transmitter.video_transmitters[<INDEX>].v_src`.
 
-To configure Mutlicast Addresses, navigate to `r_t_p_transmitter.video_transmitters[<INDEX>].generic.ip_configuration`. Depending on whether 2110-40 is present or 2022-7 is being used you will need to assign mutlicast destination addresses by entering a valid mutlicast address aswell as port into the respective `dst_address` field. For example, to set a video_transmitters primary media destination ip we'd enter `239.1.2.3:50020` into `r_t_p_transmitter.video_transmitters[<INDEX>].generic.ip_configuration.media.primary.dst_address`. _NOTE:_ Make sure to always confirm your entered commands by pressing `Enter` or `Shift-Enter`.
+To configure Mutlicast Addresses, navigate to `r_t_p_transmitter.video_transmitters[<INDEX>].generic.ip_configuration`. Depending on whether 2110-40 is present or 2022-7 is being used you will need to assign mutlicast destination addresses for both media/meta and primary/secondary by entering a valid mutlicast address aswell as port into the respective `dst_address` field. For example, to set a video_transmitters primary media destination ip we'd enter `239.1.2.3:50020` into `r_t_p_transmitter.video_transmitters[<INDEX>].generic.ip_configuration.media.primary.dst_address`. _NOTE:_ Make sure to always confirm your entered commands by pressing `Enter` or `Shift-Enter`.
 
 We may now activate the transmitter by activating it's hosting_session. Navigate to `r_t_p_transmitter.sessions[<INDEX>].acitve` and set it to `true`.
 
