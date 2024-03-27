@@ -11,7 +11,8 @@ The capacity can be set up by either entering a time duration in seconds or as a
 If your file contains blanking data, you have to set `add_blanking` to `true` in the input caliber settings.
 The constraints can be set to "Standard" or "Bandwidth". The "Standard" option will set a fixed standard which will also prevent files not of this standard from being loaded. The "Bandwidth" option is much more flexible and only sets the bandwidth limit the player is allowed to reserve. For example `b3_0Gb` would allow every clip up to 3G to be loaded, denying UHD sizes.
 
-Please note that setting a bandwidth or standard will always reserve resources for the allowed maximum, even if unused later.
+> [!NOTE]
+> Please note that setting a bandwidth or standard will always reserve resources for the allowed maximum, even if unused later.
 
 When the player is set up, there a multiple ways to define its source material.
 
