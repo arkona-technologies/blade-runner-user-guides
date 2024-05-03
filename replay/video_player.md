@@ -29,6 +29,7 @@ To upload a file, click on the element showing "Select file/s for upload" or dra
 ## Upload from USB device
 
 To upload files from a USB stick, you have to copy your files in the .bid format to the root directory of a formatted USB stick. Please note that the clips should not be in subdirectories.
+While AT300 can use most filesystem formats, we recommend using `FAT32` since it's most commonly supported between *Windows/Mac/Linux/others*. 
 
 ```
 /media/YourUSBStick
