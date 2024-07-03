@@ -5,6 +5,12 @@ To perform a software update you need to have connection to your blade and know 
 > [!NOTE]
 > If you connect to the front port with its fixed IP address, don't forget to adjust the settings of your PC to be in the same subnet. For example, set a fixed IP like "172.16.2.4" with the subnet mask "255.255.0.0".
 
+If you have trouble connecting to the blade, please go through the [IP setup](ip.md) first.
+
+To perform a software update:
+
+1. [Download latest software](https://www.dropbox.com/scl/fo/48fo8h9fl8exzzta4de0r/ANwE702r86pDo6B1SBPmhbw?rlkey=5ig6q7qls6hoxdutgkdkqh8p8&st=vyr6jc60&dl=0)
+
 1. Open a browser and go to `http://<IP of your blade>` to open the landing page.
 1. Click on the `SW/licenses` button in the menu.
 1. Click the big blue field below "Software Update" to select or drag and drop an installer file from your desktop into it to upload the installer file.
@@ -17,3 +23,4 @@ To perform a software update you need to have connection to your blade and know 
 If your browser has a internet connection, the GUI will check for available updates and if so enlist them in the notifications list:
 
 ![Landing Page - Notifications](gui-software-notification.png)
+
