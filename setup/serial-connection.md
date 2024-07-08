@@ -1,13 +1,24 @@
-# Serial USB Terminal
+# Serial Connection to AT300
 
-In this short guide you will see how to:
+There are multiple ways to connect to an AT300 blade via serial port. In this short documentation you will see how to connect from a linux PC or with a software tool "Serial USB Terminal" for android smartphones.
+
+## Connecting from linux
+
+- Install the software "tio" from with your usual package manager.
+- look for the device which as physically attached to the front micro USB port with `ls -l /dev/ttyUSB*`
+- execute tio with the device that you found, e.g. `tio ttyUSB0`
+  - tios default settings (baudrate 115200 etc.) are already correct to establish the connection
+
+## Serial USB Terminal
+
+<!-- In this short guide you will see how to:
 
 - Connect a smartphone via serial connection to a blade
 - Configure basic setups like IP addresses via smartphone
 
-This guide is based on an android app called "Serial USB Terminal" and will provide some command examples.
+This guide is based on an android app called "Serial USB Terminal" and will provide some command examples. -->
 
-## Get prerequisites
+### Get prerequisites
 
 To get going, you'll need:
 
@@ -16,7 +27,7 @@ To get going, you'll need:
 - A cable to connect your phone to the micro USB front port of the AT300
 
 
-## Setup
+### Setup
 
 1. Open Serial USB Terminal on your phone
 2. Load the configuration file by clicking on the config button in the upper right corner (the button showing three dots - also known as the kabob menu) and then "configuration -> import" 
@@ -55,6 +66,6 @@ p1@172.16.59.1 rear@172.16.59.2
 10. Reboot machine with "Reboot" button 
 
 
-### Config file example
+#### Config file example
 
 [Config example](./serial_usb_terminal_cfg.txt)
