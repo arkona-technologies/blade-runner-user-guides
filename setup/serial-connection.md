@@ -30,7 +30,7 @@ To get going, you'll need:
 ### Setup
 
 1. Open Serial USB Terminal on your phone
-2. Load the configuration file by clicking on the config button in the upper right corner (the button showing three dots - also known as the kabob menu) and then "configuration -> import" 
+2. Load the "[configuration file](./serial_usb_terminal_cfg.txt?raw=1)" by clicking on the config button in the upper right corner (the button showing three dots - also known as the kabob menu) and then "configuration -> import"
 
 ![Kabob menu (three dots)](serial-usb-app.png)
 
@@ -48,20 +48,22 @@ To get going, you'll need:
 
 ![macro buttons](macro-buttons.svg)
 
-7. Clicking on the "Login" button at the bottom, a message like this should appear 
+7. Clicking on the "Login" button at the bottom, a message like this should appear
+   - Note: After logging in, you can also deactivate the “neighborhood-watch” messages if necessary by pressing the “Shutup” button.
 
 ```
-[neighborhood-watch][AT300-59] p0@172.16.59.0 
-p1@172.16.59.1 rear@172.16.59.2
+[neighborhood-watch][AT300-59] p0@172.16.59.0 p1@172.16.59.1 rear@172.16.59.2
 root
 Password:
 AT300-59:/
-root # [neighborhood-watch][AT300-59] p0@172.16.59.0 
-p1@172.16.59.1 rear@172.16.59.2
+root # [neighborhood-watch][AT300-59] p0@172.16.59.0 p1@172.16.59.1 rear@172.16.59.2
 ```
-8. The "Info-R" button will show you the current rear port address info 
 
-9. With "Stat-R" you can change the rear mgmt IP address due to the configuration of the button (see config file) 
+8. The "Info-R" button will show you the current rear port address configuration
+   - Note: "Info-V" button shows all vlan-/mac-/ip-addresses
+
+9. With "Stat-R" you can change the rear mgmt IP address due to the configuration (default: 172.16.2.2/16) of the button
+   - Note: see config file or by holding down the button the IP address can be edited (incl. the entire command)
 
 10. Reboot machine with "Reboot" button 
 
