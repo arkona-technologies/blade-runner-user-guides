@@ -30,7 +30,7 @@ To get going, you'll need:
 ### Setup
 
 1. Open Serial USB Terminal on your phone
-2. Load the <a href="https://raw.githubusercontent.com/arkona-technologies/blade-runner-user-guides/main/setup/serial_usb_terminal_cfg.txt?raw" download target="_blank">Configuration File</a>  [conf file](https://raw.githubusercontent.com/arkona-technologies/blade-runner-user-guides/main/setup/serial_usb_terminal_cfg.txt?raw "download") by clicking on the config button in the upper right corner (the button showing three dots - also known as the kabob menu) and then "configuration -> import"
+2. Load the [configuration file](https://raw.githubusercontent.com/arkona-technologies/blade-runner-user-guides/main/setup/serial_usb_terminal_cfg.txt?raw "download") by clicking on the config button in the upper right corner (the button showing three dots - also known as the kabob menu) and then "configuration -> import"
 
 ![Kabob menu (three dots)](serial-usb-app.png)
 
