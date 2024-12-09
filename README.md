@@ -5,6 +5,7 @@ It is obviously currently only at its starting point as there are lots of featur
 
 - Setup
   - [Software Update](setup/software-update.md)
+  - [Telemetry Stack](https://github.com/arkona-technologies/telemetry-template) 
 - RePlay
   - [Audio Player](replay/audio_player.md)
   - [Video Player](replay/video_player.md)
