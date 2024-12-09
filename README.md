@@ -3,9 +3,11 @@
 This repository is meant as a collection point for short descriptions about BLADE//runner features. 
 It is obviously currently only at its starting point as there are lots of features in BLADE//runner.
 
+> Descriptions can be related to BLADE//runner directly or also to tools offered by arkona technologies like the telemetry-template or blade-master that boost its utilization. Tools should be marked with "[Tool]".
+
 - Setup
   - [Software Update](setup/software-update.md)
-  - [Telemetry Stack](https://github.com/arkona-technologies/telemetry-template) 
+  - [Tool] [Telemetry Stack](https://github.com/arkona-technologies/telemetry-template) 
 - RePlay
   - [Audio Player](replay/audio_player.md)
   - [Video Player](replay/video_player.md)
