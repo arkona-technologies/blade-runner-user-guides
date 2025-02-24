@@ -8,8 +8,14 @@ It is obviously currently only at its starting point as there are lots of featur
 - Setup
   - [Software Update](setup/software-update.md)
   - [Tool] [Telemetry Stack](https://github.com/arkona-technologies/telemetry-template) 
+  - [Simple PTP setup](setup/ptp.md)
 - RePlay
   - [Audio Player](replay/audio_player.md)
   - [Video Player](replay/video_player.md)
+- Processors
+  - [(3D) Color Correctors](processors/cc.md)
+  - [Mixer / Luma Keyer](processors/mixer.md)
 - RTP Transmitter
   - [Video Transmitter](rtp_transmitter/video_transmitter.md)
+- RTP Receiver
+  - [Video Receiver](rtp_receiver/video.md)

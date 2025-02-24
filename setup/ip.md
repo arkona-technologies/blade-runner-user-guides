@@ -21,7 +21,8 @@ That will open the landing page as shown below.
 
 ![AT300 - landing page](landing-page.png)
 
-> [!NOTE] Adding IP addresses will be included to the landing page section "IP addresses" later, currently it's only possible to change existing static IP configurations of the ports on it.
+- [Set IP addresses](https://www.dropbox.com/scl/fi/4kvqdmnsckzbtrs67zy0c/set-ip-addresses.mp4?rlkey=4yqif82l0ynivcgdlweh3ovvu&st=w7f9lk4e&dl=0)
+
 
 Click on the icon on the right of the burger menu to open adanced settings to the side.
 

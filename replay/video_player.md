@@ -41,3 +41,8 @@ While AT300 can use most filesystem formats, we recommend using `FAT32` since it
 ```
 
 When your USB stick is connected to the front usb-c port, you can click on the dropdown of a player. The menu will show all files found on the device and by clicking on an entry, write the path of the selected file to the players `upload.file` keyword. The player will now load the selected file after a reboot. If it also should be uploaded immediately, click the "Load file" button next to the dropdown.
+
+## Short video guide
+
+- [Create player and upload from PC](https://www.dropbox.com/scl/fi/htbq59wkwdchdw4owlw6s/video-player-create.mp4?rlkey=i9ayc17fvktsxrvy1glxvuytz&st=mi9g5k17&dl=0)
+- [Upload file from USB stick](https://www.dropbox.com/scl/fi/k9zjmxtpst1v19swhs6ah/video-player-load-from-usb.mp4?rlkey=7ukiuczlllci1pclr1jcg2hhr&st=jwwwtrvf&dl=0)
