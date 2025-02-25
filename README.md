@@ -7,8 +7,9 @@ It is obviously currently only at its starting point as there are lots of featur
 
 - Setup
   - [Software Update](setup/software-update.md)
-  - [Tool] [Telemetry Stack](https://github.com/arkona-technologies/telemetry-template) 
   - [Simple PTP setup](setup/ptp.md)
+  - [Tool] [Telemetry Stack](https://github.com/arkona-technologies/telemetry-template)
+  - [Tool] [BLADE//master](setup/blade-master.md) 
 - RePlay
   - [Audio Player](replay/audio_player.md)
   - [Video Player](replay/video_player.md)
