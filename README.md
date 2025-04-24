@@ -9,7 +9,7 @@ It is obviously currently only at its starting point as there are lots of featur
   - [Software Update](setup/software-update.md)
   - [Simple PTP setup](setup/ptp.md)
   - [Tool] [Telemetry Stack](https://github.com/arkona-technologies/telemetry-template)
-  - [Tool] [BLADE//master](setup/blade-master.md) 
+  - [Tool] [BLADE//master](setup/ember.md)
 - RePlay
   - [Audio Player](replay/audio_player.md)
   - [Video Player](replay/video_player.md)
