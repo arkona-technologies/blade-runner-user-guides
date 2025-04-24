@@ -2,7 +2,7 @@
 
 You can configure and run the ember+ control software on a AT300 blade. To do so, copy a valid configuration json file named "config_general.json" into the `/config/ember/` directory on your AT300. Afterwards, go to the advanced UI -> System -> Services and enable "ember".
 
-A valid configuration file can look like this (detailed description will follow):
+A valid configuration file can look like this (description of config file [here](https://hub.docker.com/r/arkonatechnologies/blade-master)):
 
 ```json
 {
