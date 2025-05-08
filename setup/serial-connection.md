@@ -7,7 +7,8 @@ There are multiple ways to connect to an AT300 blade via serial port. In this sh
 - Install the software "tio" from with your usual package manager.
 - look for the device which as physically attached to the front micro USB port with `ls -l /dev/ttyUSB*`
 - execute tio with the device that you found, e.g. `tio ttyUSB0`
-  - tios default settings (baudrate 115200 etc.) are already correct to establish the connection
+  - tios default settings are already correct to establish the connection
+  - serial speed: 115200 | data-bits: 8 | stop-bits: 1 | parity: none | flow-control: none 
 
 ## Serial USB Terminal
 
