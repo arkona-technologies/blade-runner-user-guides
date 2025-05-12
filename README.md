@@ -6,6 +6,8 @@ It is obviously currently only at its starting point as there are lots of featur
 > Descriptions can be related to BLADE//runner directly or also to tools offered by arkona technologies like the telemetry-template or blade-master that boost its utilization. Tools should be marked with "[Tool]".
 
 - Setup
+  - [Serial connection to AT300](https://github.com/arkona-technologies/blade-runner-user-guides/blob/main/setup/serial-connection.md)
+  - [IP Setup](https://github.com/arkona-technologies/blade-runner-user-guides/blob/main/setup/ip.md)
   - [Software Update](setup/software-update.md)
   - [Simple PTP setup](setup/ptp.md)
   - [Tool] [Telemetry Stack](https://github.com/arkona-technologies/telemetry-template)
