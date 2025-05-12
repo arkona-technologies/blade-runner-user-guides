@@ -63,7 +63,7 @@ root # [neighborhood-watch][AT300-59] p0@172.16.59.0 p1@172.16.59.1 rear@172.16.
 8. The "Info-R" button will show you the current rear port address configuration
    - Note: "Info-V" button shows all vlan-/mac-/ip-addresses
 
-9. With "Stat-R" you can change the rear mgmt IP address due to the configuration (default: 172.16.2.2/16) of the button
+9. With "Stat-R" you can change/set the rear mgmt IP address to a static address (172.16.2.2/16) or with "DHCP-R" to a dynamic/DHCP address (factory default)
    - Note: see config file or by holding down the button the IP address can be edited (incl. the entire command)
 
 10. Reboot machine with "Reboot" button 
