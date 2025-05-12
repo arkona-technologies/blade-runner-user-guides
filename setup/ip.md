@@ -2,7 +2,9 @@
 
 The setup of IP addresses on AT300 can be done via cli, scripting or GUI. This guide will show you how to define IP addresses via GUI.
 
-You can connect through any port of the AT300, the mini USB will need further steps thought. You can read about how to get access to the AT300 by connecting your smartphone to it [here](serial-connection.md).
+You can connect through any port of the AT300, the mini USB will need further steps though.
+
+>If you can't reach your AT300 over the network ports, you can also connect via [serial connection](serial-connection.md).
 
 AT300 has four ports listed as available ethernet ports:
  
