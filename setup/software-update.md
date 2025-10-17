@@ -9,12 +9,23 @@ If you have trouble connecting to the blade, please go through the [IP setup](ip
 
 To perform a software update:
 
-1. [Download latest software](https://www.dropbox.com/scl/fo/48fo8h9fl8exzzta4de0r/ANwE702r86pDo6B1SBPmhbw?rlkey=5ig6q7qls6hoxdutgkdkqh8p8&st=vyr6jc60&dl=0)
+**1.** [Download latest software](https://www.dropbox.com/scl/fo/48fo8h9fl8exzzta4de0r/ANwE702r86pDo6B1SBPmhbw?rlkey=5ig6q7qls6hoxdutgkdkqh8p8&st=vyr6jc60&dl=0)
 
-1. Open a browser and go to `http://<IP of your blade>` to open the landing page.
-1. Click on the `SW/licenses` button in the menu.
-1. Click the big blue field below "Software Update" to select or drag and drop an installer file from your desktop into it to upload the installer file.
-1. When the upload has finished, you can read through the changelogs and start the installation by clicking the green button.
+> [!NOTE]
+> For regular updates of the user/system partitions, use the one without the "RPU" at the end.<br>
+> Doing this twice will update both user/system partitions (rebooting in between).<br>
+> The "RPU" version is required to update the recovery partition if you want to do so.
+
+**2.** Open a browser and go to `http://<IP of your blade>` to open the landing page.
+
+**3.** Click on the `SW/Licenses` button in the menu.
+
+**4.** Click the large box under `Software Update` to select an installation file, or drag and drop it from your desktop to upload the installation file.
+
+**5.** Once the upload is complete, you can review the changelogs and start the installation by clicking the appropriate button.
+
+> [!NOTE]
+> For newer versions, a prompt will also appear asking if you want to save the current settings before installing/updating.
 
 ![Landing Page - SW/Licenses Section](gui-swu.png)
 
