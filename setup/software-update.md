@@ -25,7 +25,7 @@ To perform a software update:
 **5.** Once the upload is complete, you can review the changelogs and start the installation by clicking the appropriate button.
 
 > [!NOTE]
-> For newer versions, a prompt will also appear asking if you want to save the current settings before installing/updating.
+> For newer versions, a prompt will also appear after upload asking if you want to save the current settings before installing/updating.
 
 ![Landing Page - SW/Licenses Section](gui-swu.png)
 
